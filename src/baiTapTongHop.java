@@ -30,9 +30,9 @@ public class baiTapTongHop {
 
         //bài 4
         System.out.println("Nhập vào số thứ nhất: ");
-        double a = Integer.parseInt(sc.nextLine());
+        double a = Double.parseDouble(sc.nextLine());
         System.out.println("Nhập vào số thứ hai: ");
-        double b = Integer.parseInt(sc.nextLine());
+        double b = Double.parseDouble(sc.nextLine());
         System.out.println("Nhập phép tính bạn muốn: ");
         System.out.println("1.Cộng");
         System.out.println("2.Trừ");
