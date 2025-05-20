@@ -2,6 +2,19 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+# Bỏ qua thư mục cấu hình của IntelliJ IDEA
+.idea/
+*.iml
+
+# Bỏ qua file hệ thống và các thư mục build
+*.class
+*.log
+out/
+build/
+
+# Đảm bảo chỉ push mã nguồn
+!src/
+
 
 ### Eclipse ###
 .apt_generated
