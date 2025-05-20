@@ -11,7 +11,7 @@ public class baiTapTongHop {
 
         System.out.println("Nhập số thứ ba: ");
         int so3 = Integer.parseInt(sc.nextLine());
-
+        timSoLonNhat(so1, so2, so3);
 
     }
 
@@ -21,6 +21,7 @@ public class baiTapTongHop {
             max = b;
         if (c > max)
             max = c;
+        System.out.println("Số lớn nhất trong ba số là: "+max);
         return max;
     }
 }
